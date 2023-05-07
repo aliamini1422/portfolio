@@ -31,7 +31,7 @@
                 </nav>
             </Header>
 
-            <main class="">
+            <main class="flex flex-col gap-10">
                     <section class="h-screen py-10 flex flex-col justify-between items-start md:flex-row ">
                             <div class=" absolute top-44 left-24 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                             <div class=" absolute top-36 right-48 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -50,7 +50,7 @@
                     </section>
                 
 
-                <section class="min-h-screen flex flex-col items-start justify-between md:flex-row md:gap-6 hide">
+                <section class="h-screen flex flex-col items-start justify-between md:flex-row md:gap-6 hide">
                     <div class="mt-10 text-center max-w-4xl md:-mt-6 hide">
                         <img class="object-cover" src="./public/images/story.jpg" alt="">
                     </div>
@@ -89,7 +89,7 @@
                     </div>
                 </section>
                 
-                <section class="min-h-screen text-center hide">
+                <section class="h-screen flex flex-col  text-center hide">
                     <h2 class="text-3xl py-4 font-medium text-gray-800 ">Skills</h2>
                     <div class="relative">
                         <div class=" absolute top-44 left-24 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
@@ -184,9 +184,9 @@
                         </ul>
                 </section>
 
-                <section class=" min-h-screen inline-block py-10 hide">
+                <section class="h-screen hide">
                     <h2 class="text-3xl py-6 font-medium text-gray-800 ">Projects</h2>
-                    <ul class="flex flex-col gap-8  pb-10">
+                    <ul class="flex flex-col gap-8 py-2 md:mt-8">
                         <li class="flex flex-col items-start gap-4 shadow rounded-lg md:flex-row md:items-center md:shadow-none">
                             <div class="rounded ">
                                 <img class="rounded-lg md:w-[35rem] md:h-[20rem] xl:w-[45rem] xl:h-[25rem] object-cover" src="./public/images/project1.png" alt="">
@@ -229,11 +229,10 @@
                     </ul>
                 </section>
 
+
             </main>
            
         </div>
-        <footer class=" py-20"></footer>
-
    </div>
   
 </body>
